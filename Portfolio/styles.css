@@ -10,7 +10,17 @@ img {
 }
 
 header{
-    background-image: linear-gradient(45deg, #CAD2C5,#0e5b1f);
+    
+}
+
+.navigation{
+    word-spacing: 40px;
+    display: inline;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 2px;
+    font-size: larger;
+
 }
 
 .title{
