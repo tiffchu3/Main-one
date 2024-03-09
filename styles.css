@@ -1,0 +1,84 @@
+
+
+/* Importing Corben font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+
+/* Applying Corben font to the entire document */
+body {
+    font-family: 'Corben', sans-serif;
+}
+
+
+img {
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+header{
+ 
+}
+
+.navigation {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #449191; /* Example background color */
+    padding: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 0 5px; /* Adjust spacing between words */
+    padding: 0 5px; /* Add space after the word */
+    position: relative; /* Required for positioning the vertical line */
+    color: white; /* Text color */
+}
+
+.navigation a:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -5px; /* Adjust to control the space between the word and the line */
+    width: 1px;
+    background-color: black; /* Color of the vertical line */
+}
+
+main {
+    margin-top: 60px; /* Adjust according to the height of your navigation bar */
+}
+
+section {
+    border: dashed 2px rgb(237, 80, 89);
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    margin-top: 20px; /* Adjust this value to move the picture down */
+}
+.title{
+
+    
+}
+.intro{
+    max-width: 500px;
+    text-align: left;
+}
+.aboutMeSection{
+    text-align: center;
+    background-color:rgb(155, 80, 80);
+    color:#84A98C;
+    font-size: larger;
+}
+.work{
+    text-align: center;
+}
+footer {
+
+}
+.centered{
+    text-align: center;
+}
